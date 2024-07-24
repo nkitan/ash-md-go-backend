@@ -1,0 +1,8 @@
+{
+    "DBHost": "localhost",
+    "DBUser": "postgres",
+    "DBPassword": "superstrongpasswordlol",
+    "DBName": "ash-md-users",
+    "DBPort": "5432"
+  }
+  

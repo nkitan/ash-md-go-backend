@@ -1,0 +1,7 @@
+POST http://localhost:23533/search-blogs
+Content-Type: application/json
+
+{
+    "tag": "medicine",
+    "page": 1
+}

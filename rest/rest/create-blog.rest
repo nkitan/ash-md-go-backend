@@ -1,0 +1,21 @@
+// {
+//   "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OTAyYTIzNjk0MWQ0MTZjZjkxMGRlMiIsImlhdCI6MTcyMDg2MzcyN30.R3l73QaalFBYBexamsSYVf6gXCij72tfDD_zPBo18Ew",
+//   "profile_img": "https://api.dicebear.com/6.x/adventurer-neutral/svg?seed=Bear",
+//   "username": "ankit.das1",
+//   "fullname": "ankit das"
+// }
+
+
+POST http://localhost:23533/create-blog
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjIwMjEwMDUsImlkIjoiODM0N2I4NjEtNGE2ZC00ZjI3LWJhMjMtZDQ0MzQ0YzQ3YTVkIn0.SAlzKlelKYhKD4PjpN02B02iA5ZeBOSXycrIfGqUXyk
+
+{
+    "title": "Duis Tristium",
+    "banner": "https://example.com/image-url",
+    "des": "In vitae turpis massa sed elementum tempus egestas sed sed. Tellus molestie nunc non blandit massa. Urna nunc id cursus metus aliquam eleifend mi in.",
+    "content": {
+        "blocks": [{"id": "6nxrp2n728", "type": "paragraph", "data": { "text": "In vitae turpis massa sed elementum tempus egestas sed sed. Tellus molestie nunc non blandit massa. Urna nunc id cursus metus aliquam eleifend mi in. Est ullamcorper eget nulla facilisi etiam dignissim diam. Egestas erat imperdiet sed euismod nisi porta lorem mollis. Commodo odio aenean sed adipiscing diam donec. Dui nunc mattis enim ut. Odio tempor orci dapibus ultrices in iaculis nunc sed augue. Faucibus et molestie ac feugiat sed lectus. Phasellus vestibulum lorem sed risus ultricies. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Eros in cursus turpis massa tincidunt dui ut ornare."}}]
+    },
+    "tags": ["technology","medicine"]
+}
