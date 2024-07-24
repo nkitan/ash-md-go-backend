@@ -1,0 +1,2 @@
+GET http://localhost:23533/get-upload-url
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OTAyYTIzNjk0MWQ0MTZjZjkxMGRlMiIsImlhdCI6MTcyMTY3MzEyM30.6YDIcWHfGL32Uf9tgiy8RO9OE_RF3r2u1FyHuihttug
